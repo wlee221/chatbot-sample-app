@@ -18,7 +18,6 @@ $ cd chatbot-sample-app
 
 ```
 $ amplify init
-? Enter a name for the project chatbotsampleapp
 ? Enter a name for the environment  dev
 ? Choose your default editor: (pick an editor)
 ? Do you want to use an AWS profile? Y (this should be the profile you created in step #4)
