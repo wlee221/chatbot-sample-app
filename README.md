@@ -26,14 +26,12 @@ $ amplify init
 6. Lastly, the CLI will provision our backend resources using the config files in the `amplify` directory. To provision these resources in the cloud, run `amplify push`. Confirm you want to use the Auth and the Interactions category.
 
 #### Install Application
-```bash
-yarn 
-yarn start
-```
 
-1. `npm install`
-2. `npm run start`
-3. The app should run on http://localhost:3000/.
+```bash
+npm install
+npm run start
+```
+The app should run on http://localhost:3000/.
 
 #### Customizing Header with Slots
 
