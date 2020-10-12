@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting Started
 
+See `src/App.js` and `src/App.css` for chatbot integration.
+
 #### Prerequisites
 
 You need to [add the Interactions category](https://docs.amplify.aws/lib/interactions/getting-started/q/platform/js#create-new-chatbot) to your app with Amplify CLI.
