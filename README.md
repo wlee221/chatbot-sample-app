@@ -10,7 +10,7 @@ You need to [add the Interactions category](https://docs.amplify.aws/lib/interac
 
 #### Customizing Header with Slots
 
-If you wish to add more to the header than just text, you can use a [slot element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot) to replace the header content with your own markup. For example:
+If you wish to add more to the header than just text, you can use a [slot](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot) element to replace the header content with your own markup. For example:
 
 _App.js_
 
