@@ -2,11 +2,37 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting Started
 
-See `src/App.js` and `src/App.css` for chatbot integration.
+#### Setup Backend
 
-#### Prerequisites
+1. Login or [Create](https://portal.aws.amazon.com/billing/signup?type=enterprise#/start) an AWS Account.
+2. In a terminal, clone this repo.
 
-You need to [add the Interactions category](https://docs.amplify.aws/lib/interactions/getting-started/q/platform/js#create-new-chatbot) to your app with Amplify CLI.
+```bash
+$ git clone https://github.com/wlee221/chatbot-sample-app.git
+$ cd chatbot-sample-app
+```
+
+3. Install the [Amplify CLI](https://github.com/aws-amplify/amplify-cli) `npm install -g @aws-amplify/cli`. Ensure you are in the directory you just cloned.
+4. If it’s your first time using the CLI, you will need to configure it by running `amplify configure`. Follow the instructions to create an IAM profile locally.
+5. Now let’s initialize an Amplify project in this directory with `amplify init`. Choose defaults when prompted. 
+
+```
+$ amplify init
+? Enter a name for the project chatbotsampleapp
+? Enter a name for the environment  dev
+? Choose your default editor: (pick an editor)
+? Do you want to use an AWS profile? Y (this should be the profile you created in step #4)
+```
+
+6. Lastly, the CLI will provision our backend resources using the config files in the `amplify` directory. To provision these resources in the cloud, run `amplify push`. Confirm you want to use the Auth and the Interactions category.
+
+#### Install Application
+
+```bash
+npm install
+npm run start
+```
+The app should run on http://localhost:3000/.
 
 #### Customizing Header with Slots
 
