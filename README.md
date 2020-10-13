@@ -23,7 +23,13 @@ $ amplify init
 ? Do you want to use an AWS profile? Y (this should be the profile you created in step #4)
 ```
 
-6. Lastly, the CLI will provision our backend resources using the config files in the `amplify` directory. To provision these resources in the cloud, run `amplify push`. Confirm you want to use the Auth and the Interactions category.
+6. Add `Auth` and `Interactions` backend with `amplify cli`. Choose the defaults when prompted.
+```
+$ amplify add auth
+$ amplify add interactions
+```
+
+7. Lastly, the CLI will provision our backend resources using the config files in the `amplify` directory. To provision these resources in the cloud, run `amplify push`. Confirm you want to use the Auth and the Interactions category.
 
 #### Install Application
 
